@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-color: #fff;
+  --background-color-primary: #047AED;
+  --background-color-secondary: #002240;
+  --background-color-light: #f4f4f4;
+  --font-color-primary: #575757;
+  --font-color-error:  #d9534f;
+  --font-color-success: #5cb85c;
+  --font-size-xxl: 3rem;
+  --font-size-xl: 2rem;
+  --font-size-large: 1.8rem;
+  --font-size-md: 1.4rem;
+  --font-size-small: 1.2rem; 
+  --font-size-xs: 1rem; 
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.app {
+  height: 100vh;
+}
+
+.error__message {
+  color: var(--font-color-error);
+  font-weight: 700;
+  font-size: var(--font-size-small);
+}
+
+.success__message {
+  color: var(--font-color-success);
+  font-weight: 700;
+  font-size: var(--font-size-small);
+}

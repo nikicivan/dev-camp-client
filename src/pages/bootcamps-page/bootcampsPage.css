@@ -1,0 +1,50 @@
+.bootcampsPage__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bootcampsPage__byLocation {
+    width: 20rem;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.bootcampsPage__byLocation > h1 {
+    font-size: var(--font-size-large);
+    color: var(--font-color-primary);
+    font-size: 700;
+    margin-bottom: 1rem;
+}
+
+.bootscampPage__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.bootscampPage__input > input {
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    height: 2rem;
+    outline-width: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .bootcampsPage__container {
+        grid-template-columns: 1fr;
+        width: 90%;
+        display: grid;
+        place-items: center;
+        margin-left: 20px;
+    }
+
+    .bootcampsPage__byLocation {
+        margin: auto;
+        margin-top: 20px;
+    }
+}

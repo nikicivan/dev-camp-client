@@ -1,0 +1,9 @@
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+    background-color: var(--background-color-secondary);
+    padding: 2rem;
+    color: var(--primary-color);
+}

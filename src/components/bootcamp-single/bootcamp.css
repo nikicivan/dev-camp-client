@@ -1,0 +1,65 @@
+.bootcamp__container {
+    display: flex;
+    padding: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.bootcamp__container:hover {
+    cursor: pointer;
+    transform: scale(1.005);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bootcamp__container > a > img {
+    height: 10rem;
+    object-fit: contain;
+}
+
+.bootcamp__info {
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.bootcamp__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bootcamp__name > h1 {
+    font-size: var(--font-size-large);
+    color: var(--font-color-primary);
+    font-size: 700;
+    margin-bottom: 1rem;
+}
+
+.bootcamp__name:hover {
+    color: var(--background-color-secondary);
+}
+
+.bootcamp__rating {
+    background: var(--background-color-primary);
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.bootcamp__rating > p {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+}
+
+.bootcamp__address {
+    font-size: var(--font-size-xs);
+    color: var(--font-color-primary);
+    font-size: 500;
+    margin-bottom: 1rem;
+}
+
+.bootcamp__careers > span {
+    margin-right: 1rem;
+    font-weight: bold;
+}
